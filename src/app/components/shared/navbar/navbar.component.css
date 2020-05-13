@@ -1,0 +1,86 @@
+/*
+Prueba practica pasada pagina Wix 
+*/*{
+    box-sizing: border-box;  
+    
+  }
+  
+  body{
+      min-width: 100%;
+      min-height: 695px;
+  }
+  .primerNavbar{
+      width: 100%;
+      display: flex;
+      height: 6vh;
+      background: #FEF5E7;
+      justify-content: flex-end;
+      /* align-items: baseline; */
+      padding-right: 7%;
+      margin: 0 ;
+  }
+  
+.primerNavbar li{
+  list-style-type: none;
+}
+
+.primerNavbar li:nth-child(1){
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.primerNavbar li:nth-child(2){
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primerNavbar li:nth-child(3){
+    
+    /* padding: 2 px 1vw; */
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+/* .primerNavbar li:nth-child(2) span{
+position: absolute;
+margin: auto;
+display: block;
+top: 50%;
+transform: translateY(-50%);
+}
+  */
+
+
+
+  /* Segundo Navbar */
+
+  .segundoNavBar{
+      height: 10vh;
+      width: 100%;
+      background: #000; /*cambiar color */
+      display: flex;
+      color: #FEF5E7;
+      padding: 0vw 7vw;
+      justify-content: space-around;
+      align-items: center;
+      
+  }
+
+  .segundoNavBar li{
+    list-style-type: none;
+  }
+
+  .segundoNavBar li:nth-child(1){
+      font-size: 30px;
+      color: #fff;
+  }

@@ -1,0 +1,36 @@
+<header>
+    <nav>
+        <div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="primerNavbar">
+                        <li>
+                            <i class="fi-interface-user mr-2"></i>
+                            <span>Log in</span>
+                        </li>
+                        <!-- <li class="text-center">
+                            <span>
+                                Free Shipping
+                            </span>
+                        </li> -->
+                        <li>
+                            <i class="fi-ecommerce-shopping-bag-2"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="roe">
+            <div class="col-12">
+                <ul class="segundoNavBar">
+                    <!-- <li>{{tituloEmpresa}}</li> -->
+                    <li *ngFor="let titulo of NavBarTitulos" >{{titulo}}</li>
+                    <!-- <li>{{NavBarTitulos[1]}}</li>
+                    <li>{{NavBarTitulos[2]}}</li>
+                    <li>{{NavBarTitulos[3]}}</li>
+                    <li>{{NavBarTitulos[4]}}</li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
